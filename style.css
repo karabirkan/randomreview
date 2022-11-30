@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.container{
+
+    background-color: pink;
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px;
+}
+
