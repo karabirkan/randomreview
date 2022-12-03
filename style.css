@@ -6,11 +6,68 @@ body {
     min-height: 100vh;
 }
 
-.container{
+.container {
 
-    background-color: pink;
-    width: 1000px;
+    background-color: #d8f3db;
+    width: 500px;
     height: 500px;
     border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
 }
 
+#clientName {
+
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#clientJob {
+    font-size: 25px;
+    color: rgb(131, 131, 255);
+}
+
+
+#header {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #b2a8df;
+
+}
+
+#clientImg {
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+#randomButton {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+#randomButton:hover {
+    color: black;
+    background-color: yellow;
+}
